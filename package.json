@@ -1,0 +1,24 @@
+{
+  "name": "halo-theme-official",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output source/css/style.css source/css/style.css",
+    "build-cleancss": "cleancss -o source/css/style.min.css source/css/style.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true source/css/style.scss source/css/style.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch"
+  },
+  "author": "Ryan Wang",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.3",
+    "rimraf": "^2.7.1"
+  }
+}

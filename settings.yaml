@@ -1,0 +1,37 @@
+general:
+  label: 基本设置
+  items:
+    index_title:
+      name: index_title
+      label: 首页标题
+      type: text
+      default: 'Halo'
+    index_slug:
+      name: index_slug
+      label: 首页说明
+      type: textarea
+      placeholder: '支持 HTML'
+    index_button_url:
+      name: index_button_url
+      label: 首页按钮链接
+      type: text
+      description: '快速开始按钮的链接地址'
+    default_share_image:
+      name: default_share_image
+      label: 分享图片
+      type: attachment
+    background_image:
+      name: background_image
+      label: 背景图片
+      type: attachment
+    enabled_cdn:
+      name: enabled_cdn
+      label: 开启 CDN
+      type: radio
+      data-type: bool
+      default: false
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭

@@ -1,0 +1,35 @@
+.bd-footer-title {
+  color: #363636;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+  transition-duration: 86ms;
+  transition-property: color;
+}
+
+.bd-footer-tsp {
+  color: #b5b5b5;
+  margin-top: 1rem;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.number {
+  display: inline;
+  padding: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  border-radius: inherit;
+  font-weight: inherit;
+  white-space: inherit;
+  background: inherit;
+  margin: inherit;
+}
+
+.card.theme-item{
+  cursor: pointer!important;
+}

@@ -1,0 +1,22 @@
+id: halo_run_official
+name: Halo Official
+author:
+  name: halo-dev
+  website: https://halo.run
+description: Official site theme for halo.
+logo: https://avatars2.githubusercontent.com/u/48195280?s=200&v=4
+website: https://github.com/halo-dev/halo-theme-official
+repo: https://github.com/halo-dev/halo-theme-official
+version: 1.0.1
+
+postMetaField:
+  - doc_menu_title
+  - doc_menu_team
+  - theme_id
+  - theme_repo
+  - theme_version
+  - theme_author
+  - theme_description
+
+sheetMetaField:
+  - themes_category_slug
