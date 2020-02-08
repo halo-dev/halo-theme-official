@@ -37,10 +37,8 @@
 
     <#if settings.enabled_cdn!false>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/halo-theme-official@${theme.version!}/source/css/style.min.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/halo-theme-official@${theme.version!}/source/js/main.min.js"></script>
     <#else>
         <link rel="stylesheet" href="${static!}/source/css/style.css"/>
-        <script src="${static!}/source/js/main.js"></script>
     </#if>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.min.css">
 
@@ -59,6 +57,29 @@
 <#nested />
 <#include "footer.ftl">
 <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+            document.querySelectorAll(".navbar-burger"),
+            0
+        );
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener("click", () => {
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle("is-active");
+                    $target.classList.toggle("is-active");
+                });
+            });
+        }
+    });
     console.log("%c    __  __      __\n" +
         "   / / / /___ _/ /___\n" +
         "  / /_/ / __ `/ / __ \\\n" +
