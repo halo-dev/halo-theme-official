@@ -3,6 +3,10 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//hm.baidu.com">
+    <link rel="dns-prefetch" href="//img.shields.io">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
@@ -10,10 +14,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>${title!}</title>
     <meta name="description" content="${description!}">
-    <meta name="keywords" content="${keywords!}"/>
+    <meta name="keywords" content="${keywords!}">
     <@global.head />
 
-    <meta itemprop="name" content="${title}">
+    <meta itemprop="name" content="${title!}">
     <meta itemprop="description" content="${description!}">
     <meta itemprop="image" content="${image!}">
 
@@ -38,7 +42,7 @@
         <link rel="stylesheet" href="${static!}/source/css/style.css"/>
         <script src="${static!}/source/js/main.js"></script>
     </#if>
-    <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.3.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.min.css">
 
     <#if is_post?? || is_sheet??>
         <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/prism.min.js"></script>

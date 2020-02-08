@@ -40,7 +40,7 @@
                         <p class="control">
                             <a class="button is-black is-small" href="https://github.com/halo-dev/halo" target="_blank">
                                 <span class="icon">
-                                    <i class="fab fa-github"></i>
+                                    <i class="ri-github-fill"></i>
                                 </span>
                                 <span>Github</span>
                             </a>
@@ -48,7 +48,7 @@
                         <p class="control">
                             <a class="button is-danger is-small" href="https://bbs.halo.run" target="_blank">
                                 <span class="icon">
-                                    <i class="fas fa-comment"></i>
+                                    <i class="ri-discuss-fill"></i>
                                 </span>
                                 <span>BBS</span>
                             </a>
