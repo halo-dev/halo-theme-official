@@ -7,7 +7,7 @@ description: Official site theme for halo.
 logo: https://avatars2.githubusercontent.com/u/48195280?s=200&v=4
 website: https://github.com/halo-dev/halo-theme-official
 repo: https://github.com/halo-dev/halo-theme-official
-version: 1.0.2
+version: 1.0.3
 
 postMetaField:
   - doc_menu_title
