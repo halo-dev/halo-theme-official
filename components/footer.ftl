@@ -24,11 +24,21 @@
                     <a href="https://github.com/halo-dev/halo/issues" target="_blank">
                         <img alt="GitHub issues" src="https://img.shields.io/github/issues/halo-dev/halo"/>
                     </a>
+                    <form action="https://tinyletter.com/halo-dev" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/halo-dev', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                        <div class="field is-grouped">
+                            <p class="control is-expanded">
+                                <input class="input" type="text" name="email" id="tlemail" placeholder="订阅更新信息（输入邮箱地址）">
+                            </p>
+                            <input type="hidden" value="1" name="embed"/>
+                            <p class="control">
+                                <button type="submit" class="button is-primary">订阅</button>
+                            </p>
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="column is-4">
                 <h4 class="bd-footer-title"><strong>Contact</strong> with</h4>
-
                 <div>
                     <div class="buttons">
                         <a class="button is-black is-outlined" href="https://github.com/halo-dev" target="_blank">
