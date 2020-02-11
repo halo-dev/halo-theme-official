@@ -45,6 +45,10 @@
     <#if is_post?? || is_sheet??>
         <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/prism.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism-tomorrow.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+        <script>
+            lazyload();
+        </script>
         <#if settings.enabled_cdn!false>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/halo-theme-official@${theme.version!}/source/css/markdown.min.css"/>
         <#else>

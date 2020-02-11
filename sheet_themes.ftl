@@ -24,7 +24,7 @@
                         <div class="card theme-item">
                             <div class="card-image">
                                 <figure class="image is-3by2">
-                                    <img src="${post.thumbnail!}" alt="${post.title!}"/>
+                                    <img class="lazyload" data-src="${post.thumbnail!}" alt="${post.title!}"/>
                                 </figure>
                             </div>
                             <div class="card-content">
