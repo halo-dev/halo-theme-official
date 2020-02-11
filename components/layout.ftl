@@ -46,9 +46,6 @@
         <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/prism.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism-tomorrow.css"/>
         <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-        <script>
-            lazyload();
-        </script>
         <#if settings.enabled_cdn!false>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/halo-theme-official@${theme.version!}/source/css/markdown.min.css"/>
         <#else>
@@ -89,6 +86,8 @@
         "  / /_/ / __ `/ / __ \\\n" +
         " / __  / /_/ / / /_/ /\n" +
         "/_/ /_/\\__,_/_/\\____/ %c v${version!} https://github.com/halo-dev/halo","color:#4571ca;","color:red");
+
+    lazyload();
 </script>
 </body>
 </html>
