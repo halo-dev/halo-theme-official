@@ -18,7 +18,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-one-quarter">
-                    <div class="card">
+                    <div class="card document-menu">
                         <div class="card-content">
                             <div class="content">
                                 <aside class="menu">
@@ -34,6 +34,20 @@
                                             </#if>
                                         </#list>
                                     </@menuTag>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card document-toc" style="margin-top: 2rem">
+                        <div class="card-content">
+                            <p class="title is-5">
+                                目录
+                            </p>
+                            <div class="content">
+                                <aside class="menu">
+                                    <ul class="menu-list">
+
+                                    </ul>
                                 </aside>
                             </div>
                         </div>
@@ -71,4 +85,50 @@
             </div>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script>
+        function async(u, c) {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = u;
+            if (c) {
+                o.addEventListener('load', function (e) {
+                    c(null, e);
+                }, false);
+            }
+            s.parentNode.insertBefore(o, s);
+        }
+        function generateCatalog(selector) {
+            _containerSelector = 'div.post-content-wrap';
+
+            // init
+            var P = $(_containerSelector), a, n, t, l, i, c;
+            a = P.find('h2');
+
+            // clean
+            $(selector).html('');
+
+            // appending
+            a.each(function () {
+                n = $(this).prop('tagName').toLowerCase();
+                i = "#" + $(this).prop('id');
+                t = $(this).text();
+                c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+                l = $('<li class="' + n + '_nav"></li>').append(c);
+                $(selector).append(l);
+            });
+            return true;
+        }
+        generateCatalog(".document-toc .menu-list");
+    </script>
+    <script>
+        async("https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js", function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right'
+            };
+            anchors.add('.post-content-wrap h1,.post-content-wrap h2,.post-content-wrap h3,.post-content-wrap h4');
+        })
+    </script>
 </@layout>
