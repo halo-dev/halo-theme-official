@@ -87,7 +87,9 @@
         " / __  / /_/ / / /_/ /\n" +
         "/_/ /_/\\__,_/_/\\____/ %c v${version!} https://github.com/halo-dev/halo","color:#4571ca;","color:red");
 
+    <#if is_post?? || is_sheet??>
     lazyload();
+    </#if>
 </script>
 </body>
 </html>
