@@ -3,7 +3,7 @@
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">
+                <h1 class="title is is-spaced">
                     ${sheet.title!}
                 </h1>
                 <h2 class="subtitle">

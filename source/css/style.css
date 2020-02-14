@@ -8424,7 +8424,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   margin: inherit;
 }
 
-.card.theme-item, .card.user-wall-item {
+.card.theme-item, .card.user-wall-item, .card.blog-item {
   cursor: pointer !important;
 }
 /*# sourceMappingURL=style.css.map */

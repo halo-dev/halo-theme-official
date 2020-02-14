@@ -3,11 +3,12 @@
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">
+                <h1 class="title is-spaced">
                     ${sheet.title!}
                 </h1>
-                <#--<h2 class="subtitle">-->
-                <#--</h2>-->
+                <h2 class="subtitle">
+                    正在使用 Halo 进行创作的小伙伴儿
+                </h2>
             </div>
         </div>
     </section>
