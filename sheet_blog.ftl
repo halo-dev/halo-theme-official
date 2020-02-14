@@ -16,7 +16,7 @@
     <section style="margin-top: 50px">
         <div class="container">
             <@postTag method="listByCategorySlug" categorySlug="blog">
-                <#list posts?sort_by('createTime') as post>
+                <#list posts?sort_by('createTime')?reverse as post>
                     <#if post_index%2=0>
                         <div class="columns">
                     </#if>
