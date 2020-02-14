@@ -53,18 +53,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <p class="title is-5">
-                                评论
-                            </p>
-                            <div class="content">
-                                <div class="post-comment-wrap">
-                                    <@comment post,"post" />
+                    <#if !post.disallowComment!false>
+                        <div class="card" style="margin-top: 2rem">
+                            <div class="card-content">
+                                <p class="title is-5">
+                                    评论
+                                </p>
+                                <div class="content">
+                                    <div class="post-comment-wrap">
+                                        <@comment post,"post" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </#if>
                 </div>
             </div>
         </div>
