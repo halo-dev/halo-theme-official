@@ -18,10 +18,10 @@
                     <strong>Contribute</strong> on GitHub
                 </h4>
                 <div>
-                    <a href="https://github.com/halo-dev/halo" target="_blank" rel="nofollow">
+                    <a href="https://github.com/halo-dev/halo" target="_blank">
                         <img alt="GitHub stars" src="https://img.shields.io/github/stars/halo-dev/halo?style=social"/>
                     </a>
-                    <a href="https://github.com/halo-dev/halo/issues" target="_blank" rel="nofollow">
+                    <a href="https://github.com/halo-dev/halo/issues" target="_blank">
                         <img alt="GitHub issues" src="https://img.shields.io/github/issues/halo-dev/halo"/>
                     </a>
                     <form action="https://tinyletter.com/halo-dev" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/halo-dev', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
@@ -41,7 +41,7 @@
                 <h4 class="bd-footer-title"><strong>Contact</strong> with</h4>
                 <div>
                     <div class="buttons">
-                        <a class="button is-black is-outlined" href="https://github.com/halo-dev" target="_blank" rel="nofollow">
+                        <a class="button is-black is-outlined" href="https://github.com/halo-dev" target="_blank">
                             <span class="icon">
                                 <i class="ri-github-fill"></i>
                             </span>
