@@ -18,10 +18,10 @@
                     <strong>Contribute</strong> on GitHub
                 </h4>
                 <div>
-                    <a href="https://github.com/halo-dev/halo" target="_blank">
+                    <a href="https://github.com/halo-dev/halo" target="_blank" rel="nofollow">
                         <img alt="GitHub stars" src="https://img.shields.io/github/stars/halo-dev/halo?style=social"/>
                     </a>
-                    <a href="https://github.com/halo-dev/halo/issues" target="_blank">
+                    <a href="https://github.com/halo-dev/halo/issues" target="_blank" rel="nofollow">
                         <img alt="GitHub issues" src="https://img.shields.io/github/issues/halo-dev/halo"/>
                     </a>
                     <form action="https://tinyletter.com/halo-dev" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/halo-dev', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
@@ -41,31 +41,31 @@
                 <h4 class="bd-footer-title"><strong>Contact</strong> with</h4>
                 <div>
                     <div class="buttons">
-                        <a class="button is-black is-outlined" href="https://github.com/halo-dev" target="_blank">
+                        <a class="button is-black is-outlined" href="https://github.com/halo-dev" target="_blank" rel="nofollow">
                             <span class="icon">
                                 <i class="ri-github-fill"></i>
                             </span>
                             <span>Github</span>
                         </a>
-                        <a class="button is-danger is-outlined" href="https://bbs.halo.run" target="_blank">
+                        <a class="button is-danger is-outlined" href="https://bbs.halo.run" target="_blank" rel="nofollow">
                             <span class="icon">
                                 <i class="ri-discuss-fill"></i>
                             </span>
                             <span>BBS</span>
                         </a>
-                        <a class="button is-info is-outlined" href="https://t.me/halo_dev" target="_blank">
+                        <a class="button is-info is-outlined" href="https://t.me/halo_dev" target="_blank" rel="nofollow">
                             <span class="icon">
                                 <i class="ri-telegram-fill"></i>
                             </span>
                             <span>Channel</span>
                         </a>
-                        <a class="button is-info is-outlined" href="https://t.me/HaloBlog" target="_blank">
+                        <a class="button is-info is-outlined" href="https://t.me/HaloBlog" target="_blank" rel="nofollow">
                             <span class="icon">
                                 <i class="ri-telegram-fill"></i>
                             </span>
                             <span>Group</span>
                         </a>
-                        <a class="button is-primary is-outlined" href="https://jq.qq.com/?_wv=1027&k=5tnr930" target="_blank">
+                        <a class="button is-primary is-outlined" href="https://jq.qq.com/?_wv=1027&k=5tnr930" target="_blank" rel="nofollow">
                             <span class="icon">
                                 <i class="ri-qq-fill"></i>
                             </span>
