@@ -84,6 +84,9 @@
                                      data-ad-format="fluid"
                                      data-ad-client="ca-pub-5271828906478846"
                                      data-ad-slot="5040595920"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
                             </div>
                             <div class="post-comment-wrap">
                                 <@comment post,"post" />

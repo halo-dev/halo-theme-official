@@ -54,9 +54,6 @@
     </#if>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 </head>
 <body>
 <#include "nav.ftl">

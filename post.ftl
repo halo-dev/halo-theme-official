@@ -38,6 +38,9 @@
                                      data-ad-slot="4611196998"
                                      data-ad-format="auto"
                                      data-full-width-responsive="true"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
                             </div>
                         </div>
                     </div>
@@ -58,6 +61,9 @@
                                          data-ad-format="fluid"
                                          data-ad-client="ca-pub-5271828906478846"
                                          data-ad-slot="5040595920"></ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
                                 </div>
                             </div>
                         </div>
