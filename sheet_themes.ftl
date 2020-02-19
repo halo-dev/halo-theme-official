@@ -53,6 +53,17 @@
                     </#if>
                 </#list>
             </@postTag>
+
+            <div class="columns">
+                <div class="column">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-5271828906478846"
+                         data-ad-slot="8003647093"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                </div>
+            </div>
         </div>
     </section>
 </@layout>

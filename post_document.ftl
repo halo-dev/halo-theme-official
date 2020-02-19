@@ -52,6 +52,18 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card ad-block" style="margin-top: 2rem">
+                        <div class="card-content">
+                            <div class="content">
+                                <ins class="adsbygoogle"
+                                     style="display:block"
+                                     data-ad-client="ca-pub-5271828906478846"
+                                     data-ad-slot="4611196998"
+                                     data-ad-format="auto"
+                                     data-full-width-responsive="true"></ins>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="column markdown-body content is-three-quarters">
                     <div class="card">
@@ -63,6 +75,12 @@
                                 </div>
                                 <div class="post-content-wrap">
                                     ${post.formatContent!}
+                                    <ins class="adsbygoogle"
+                                         style="display:block; text-align:center;"
+                                         data-ad-layout="in-article"
+                                         data-ad-format="fluid"
+                                         data-ad-client="ca-pub-5271828906478846"
+                                         data-ad-slot="5040595920"></ins>
                                 </div>
                             </div>
                         </div>

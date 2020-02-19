@@ -78,6 +78,12 @@
                         <div class="markdown-body content">
                             <div class="post-content-wrap">
                                 ${post.formatContent!}
+                                <ins class="adsbygoogle"
+                                     style="display:block; text-align:center;"
+                                     data-ad-layout="in-article"
+                                     data-ad-format="fluid"
+                                     data-ad-client="ca-pub-5271828906478846"
+                                     data-ad-slot="5040595920"></ins>
                             </div>
                             <div class="post-comment-wrap">
                                 <@comment post,"post" />
