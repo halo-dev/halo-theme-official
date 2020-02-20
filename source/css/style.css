@@ -4217,8 +4217,8 @@ button.dropdown-item.is-active {
 }
 
 .menu-list a.is-active {
-  background-color: #3273dc;
-  color: #fff;
+  background-color: whitesmoke;
+  color: #363636;
 }
 
 .menu-list li ul {
