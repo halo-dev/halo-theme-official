@@ -73,7 +73,7 @@
 
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
-                    <article class="tile is-child box">
+                    <article itemscope itemtype="http://schema.org/Article" class="tile is-child box">
                         <p class="title">详情</p>
                         <div class="markdown-body content">
                             <div class="post-content-wrap">

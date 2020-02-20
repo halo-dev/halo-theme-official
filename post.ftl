@@ -48,7 +48,7 @@
                 <div class="column markdown-body content is-three-quarters">
                     <div class="card">
                         <div class="card-content">
-                            <div class="content">
+                            <article itemscope itemtype="http://schema.org/Article" class="content">
                                 <div class="columns is-gapless is-marginless is-vcentered">
                                     <div class="column"><h1>${post.title!}</h1></div>
                                     <div class="column"><span class="is-pulled-right is-size-7">发布时间：${post.editTime?string('yyyy-MM-dd')}</span></div>
@@ -65,7 +65,7 @@
                                         (adsbygoogle = window.adsbygoogle || []).push({});
                                     </script>
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     </div>
                     <#if !post.disallowComment!false>
