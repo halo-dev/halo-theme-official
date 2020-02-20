@@ -111,12 +111,10 @@
     </section>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script>
-        var url = location.href;
-        var urlstatus = false;
+        const url = window.location.pathname;
         $(".menu li a").each(function () {
-            if ((url + '/').indexOf($(this).attr('href')) > -1 && $(this).attr('href') != '/') {
+            if ($(this).attr('href') == url && $(this).attr('href') != '/') {
                 $(this).addClass('is-active');
-                urlstatus = true;
             } else {
                 $(this).removeClass('is-active');
             }
