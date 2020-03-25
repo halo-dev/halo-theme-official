@@ -1,6 +1,6 @@
 <#include "components/layout.ftl">
 <#include "components/comment.ftl">
-<@layout title="博客：${post.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${post.summary!}" canonical="${context!}/archives/${post.url!}" image="${settings.default_share_image!}">
+<@layout title="博客：${post.title!} - ${blog_title!}" canonical="${post.fullPath!}" image="${settings.default_share_image!}">
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
             <div class="container">
@@ -76,7 +76,7 @@
                                 </p>
                                 <div class="content">
                                     <div class="post-comment-wrap">
-                                        <@comment post,"post" />
+                                        <@comment post,"547" />
                                     </div>
                                 </div>
                             </div>

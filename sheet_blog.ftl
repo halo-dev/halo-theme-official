@@ -1,5 +1,5 @@
 <#include "components/layout.ftl">
-<@layout title="${sheet.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/s/${sheet.url!}" image="${settings.default_share_image!}">
+<@layout title="${sheet.title!} - ${blog_title!}" canonical="${sheet.fullPath!}" image="${settings.default_share_image!}">
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
             <div class="container">
@@ -21,7 +21,7 @@
                         <div class="columns">
                     </#if>
                         <div class="column is-6">
-                            <a href="${context!}/archives/${post.url!}">
+                            <a href="${post.fullPath!}">
                                 <div class="card blog-item">
                                     <div class="card-content">
                                         <div class="media">

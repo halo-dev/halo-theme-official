@@ -1,6 +1,6 @@
 <#include "components/layout.ftl">
 <#include "components/comment.ftl">
-<@layout title="主题：${post.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${post.summary!}" canonical="${context!}/archives/${post.url!}" image="${post.thumbnail!}">
+<@layout title="主题：${post.title!} - ${blog_title!}" canonical="${post.fullPath!}" image="${post.thumbnail!}">
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
             <div class="container">
