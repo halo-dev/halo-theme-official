@@ -1,6 +1,6 @@
 <#include "components/layout.ftl">
 <#include "components/comment.ftl">
-<@layout title="${metas.doc_menu_title!}：${post.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${post.summary!}" canonical="${context!}/archives/${post.url!}" image="${settings.default_share_image!}">
+<@layout title="${metas.doc_menu_title!}：${post.title!} - ${blog_title!}" canonical="${post.fullPath!}" image="${settings.default_share_image!}">
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
             <div class="container">

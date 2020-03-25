@@ -1,4 +1,4 @@
-<#macro layout title,keywords,description,canonical,image>
+<#macro layout title,canonical,image>
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -13,32 +13,32 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>${title!}</title>
-    <meta name="description" content="${description!}">
-    <meta name="keywords" content="${keywords!}">
+    <meta name="description" content="${meta_description!}">
+    <meta name="keywords" content="${meta_keywords!}">
     <@global.head />
 
     <meta itemprop="name" content="${title!}">
-    <meta itemprop="description" content="${description!}">
+    <meta itemprop="description" content="${meta_description!}">
     <meta itemprop="image" content="${image!}">
 
     <meta property="og:url" content="${canonical!}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="${title!}">
-    <meta property="og:description" content="${description!}">
+    <meta property="og:description" content="${meta_description!}">
     <meta property="og:image" content="${image!}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${title!}">
-    <meta name="twitter:description" content="${description!}">
+    <meta name="twitter:description" content="${meta_description!}">
     <meta name="twitter:image" content="${image!}">
 
     <link rel="canonical" href="${canonical!}">
-    <link rel="alternate" type="application/rss+xml" title="${title!}" href="${context!}/atom.xml">
+    <link rel="alternate" type="application/rss+xml" title="${title!}" href="${atom_url}">
 
     <#if settings.enabled_cdn!false>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/halo-theme-official@${theme.version!}/source/css/style.min.css"/>
     <#else>
-        <link rel="stylesheet" href="${static!}/source/css/style.css"/>
+        <link rel="stylesheet" href="${theme_base!}/source/css/style.css"/>
     </#if>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.min.css">
 
@@ -49,7 +49,7 @@
         <#if settings.enabled_cdn!false>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/halo-theme-official@${theme.version!}/source/css/markdown.min.css"/>
         <#else>
-            <link rel="stylesheet" href="${static!}/source/css/markdown.css"/>
+            <link rel="stylesheet" href="${theme_base!}/source/css/markdown.css"/>
         </#if>
     </#if>
 

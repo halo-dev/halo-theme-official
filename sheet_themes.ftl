@@ -1,5 +1,5 @@
 <#include "components/layout.ftl">
-<@layout title="${sheet.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/s/${sheet.url!}" image="${settings.default_share_image!}">
+<@layout title="${sheet.title!} - ${blog_title!}" canonical="${sheet.fullPath!}" image="${settings.default_share_image!}">
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
             <div class="container">
@@ -37,12 +37,12 @@
                             <footer class="card-footer">
                                 <p class="card-footer-item">
                                   <span>
-                                      <a href="${context!}/archives/${post.url!}">详情</a>
+                                      <a href="${post.fullPath!}">详情</a>
                                   </span>
                                 </p>
                                 <p class="card-footer-item">
                                   <span>
-                                    <a href="${post.postMetas.theme_repo!}" target="_blank">下载</a>
+                                    <a href="${post.metas.theme_repo!}" target="_blank">下载</a>
                                   </span>
                                 </p>
                             </footer>

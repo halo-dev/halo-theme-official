@@ -1,5 +1,5 @@
 <#include "components/layout.ftl">
-<@layout title="${sheet.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/s/${sheet.url!}" image="${settings.default_share_image!}">
+<@layout title="${sheet.title!} - ${blog_title!}" canonical="${sheet.fullPath!}" image="${settings.default_share_image!}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-pricingtable@0.2.0/dist/css/bulma-pricingtable.min.css"/>
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
