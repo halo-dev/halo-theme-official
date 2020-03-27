@@ -1,5 +1,5 @@
 <#include "components/layout.ftl">
-<#include "components/comment.ftl">
+<#--<#include "components/comment.ftl">-->
 <@layout title="${metas.doc_menu_title!}：${post.title!} - ${blog_title!}" canonical="${post.fullPath!}" image="${settings.default_share_image!}">
     <section class="hero" style="background-image: url(${settings.background_image!});box-shadow: 0 2px 0 0 #f5f5f5;">
         <div class="hero-body">
@@ -91,20 +91,20 @@
                             </article>
                         </div>
                     </div>
-                    <#if !post.disallowComment!false>
-                        <div class="card" style="margin-top: 2rem">
-                            <div class="card-content">
-                                <p class="title is-5">
-                                    评论
-                                </p>
-                                <div class="content">
-                                    <div class="post-comment-wrap">
-                                        <@comment post,"post" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </#if>
+                    <#--<#if !post.disallowComment!false>-->
+                        <#--<div class="card" style="margin-top: 2rem">-->
+                            <#--<div class="card-content">-->
+                                <#--<p class="title is-5">-->
+                                    <#--评论-->
+                                <#--</p>-->
+                                <#--<div class="content">-->
+                                    <#--<div class="post-comment-wrap">-->
+                                        <#--<@comment post,"post" />-->
+                                    <#--</div>-->
+                                <#--</div>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                    <#--</#if>-->
                 </div>
             </div>
         </div>
