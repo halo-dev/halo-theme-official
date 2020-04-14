@@ -15,15 +15,9 @@
             </div>
             <div class="column is-4">
                 <h4 class="bd-footer-title">
-                    <strong>Contribute</strong> on GitHub
+                    <strong>Subscribe</strong> with
                 </h4>
                 <div>
-                    <a href="https://github.com/halo-dev/halo" target="_blank">
-                        <img alt="GitHub stars" src="https://img.shields.io/github/stars/halo-dev/halo?style=social"/>
-                    </a>
-                    <a href="https://github.com/halo-dev/halo/issues" target="_blank">
-                        <img alt="GitHub issues" src="https://img.shields.io/github/issues/halo-dev/halo"/>
-                    </a>
                     <form action="https://tinyletter.com/halo-dev" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/halo-dev', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
                         <div class="field is-grouped">
                             <p class="control is-expanded">
