@@ -40,7 +40,6 @@
     <#else>
         <link rel="stylesheet" href="${theme_base!}/source/css/style.css"/>
     </#if>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.min.css">
 
     <#if is_post?? || is_sheet??>
         <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/prism.min.js"></script>
